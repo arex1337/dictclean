@@ -72,6 +72,7 @@ if (isset($options['dirtyfile'])) {
 #
 # 2. Meat
 #	
+echo 'dictclean ', DICTCLEAN_VERSION, ' report (www.thepasswordproject.com)', "\n\n";
 $invalidCount = 0;
 $lineCount = 1;
 $inHandle = fopen(DICTIONARY_FILE, 'r');
